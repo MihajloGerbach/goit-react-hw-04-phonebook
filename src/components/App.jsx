@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
-import { useLocaleStorage } from './hooks/useLocalStorage';
+import { useLocaleStorage } from '../hooks/useLocalStorage';
 
 import { ContactsList } from "./ContactsList/ContactsList";
 import { ContactForm } from './ContactsForm/ContactsForm';
